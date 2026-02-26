@@ -1,0 +1,39 @@
+:root{
+	--p: #76EDFF;
+	--s: #FAE9CE;
+	--t: #096688;
+}
+
+body{
+	color: var(--t);
+	background-color: var(--p);	
+	display: flex;
+	justify-content: center;
+}
+
+h1{
+	font-size: medium;
+}
+
+p{
+	font-size: xx-small;
+}
+
+#content{
+	background-color: white;	
+	width: 75vw;
+	padding: 2vw;
+}
+
+#nav{
+	background-color: black;
+	
+}
+
+#mediacontainer{
+	border-style: dotted;
+	display: grid;
+	grid-template-columns: repeat(5, 100px);
+	justify-content: space-evenly;
+}
+

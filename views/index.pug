@@ -1,0 +1,20 @@
+html 
+
+head
+	title missionctrl
+	link(rel="stylesheet" href="index.css")
+body
+	div(id="content")
+		div(id="hero")
+			h1 Welcome to mission ctrl!
+			p The goal of this website is a little vague, it's my attempt at making a modern tool to help combat a modern problem. The modern problem in question being an addiction to media consumption and the various dopamine substitutes.
+
+			a(href="/feed") feed 
+		
+		form(action="/search", method="POST", id="searchform")
+			input(id="searchfield" type="text", name="title", placeholder="Enter movie title")
+			button(type="submit") Search
+
+		div(id="mediacontainer")
+	
+	script(src="index.js")

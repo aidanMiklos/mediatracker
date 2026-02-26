@@ -1,0 +1,20 @@
+{
+  "name": "missionctrl",
+  "version": "1.0.0",
+  "description": "a tool to help me better manage my media consumption",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Aidan Miklos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "moviedb-promise": "^4.0.8",
+    "path": "^0.12.7",
+    "pug": "^3.0.3",
+    "rss-parser": "^3.13.0"
+  }
+}
